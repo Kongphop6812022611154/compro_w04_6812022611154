@@ -13,3 +13,8 @@ int main() {
     countCall();
     return 0;
 }
+
+//ผลลัพธ์ที่ได้คือ Starting function calls...
+//Call function: counter = 1
+//After first call:
+//Call function: counter = 1
