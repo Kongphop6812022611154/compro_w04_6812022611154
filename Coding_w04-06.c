@@ -15,3 +15,8 @@ int main () {
 
     return 0;
 }
+
+//GLOBAL_RATE จะสามารถใช้ได้ทั้งโปรแกรม LOCAL_BONUS จะใช้ได้แค่ใน calculate
+//ถ้าเขียน GLOBAL_RATE=20 และ LOCAL=80 ก็สามารถ Run ได้ปกติ
+//ที่LOCAL ไม่สามารถเรียกใช้ใน main()ได้เนื่องจาก LOCAL_BONUS จะใช้ได้แค่ใน calculate
+//สรุปคือ GLOBAL_RATE จะสามารถใช้ได้ทั้งโปรแกรม LOCAL_BONUS จะใช้ได้แค่ใน calculate
